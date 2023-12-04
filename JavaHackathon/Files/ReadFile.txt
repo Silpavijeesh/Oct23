@@ -1,0 +1,6 @@
+Hello 
+welcome to java
+learn how to read file
+how to write into a file
+reverse 
+end
