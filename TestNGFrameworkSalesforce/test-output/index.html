@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Smoke" class="navigator-link">
+              <span class="suite-name border-failed">Smoke</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Smoke" class="navigator-link ">
+                    <span>C:\Users\silpa\eclipse-workspace\TestNGFrameworkSalesforce\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Smoke" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Smoke" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Smoke" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Smoke" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Smoke" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Smoke" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 5 failed,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Smoke" class="hide-methods failed suite-Smoke"> (hide)</a> <!-- hide-methods failed suite-Smoke -->
+                      <a href="#" panel-name="suite-Smoke" class="show-methods failed suite-Smoke"> (show)</a> <!-- show-methods failed suite-Smoke -->
+                    </span>
+                    <div class="method-list-content failed suite-Smoke">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="createnewviewinthecontactpage">createnewviewinthecontactpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.AccountsTest" class="method navigator-link" hash-for-method="editview">editview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.UsermenuTest" class="method navigator-link" hash-for-method="selectUsermenufromusermenudropdown">selectUsermenufromusermenudropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.UsermenuTest" class="method navigator-link" hash-for-method="selectmyprofilefromusermenu">selectmyprofilefromusermenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="viewacontactinthecontactpage">viewacontactinthecontactpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Smoke -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Smoke" class="hide-methods passed suite-Smoke"> (hide)</a> <!-- hide-methods passed suite-Smoke -->
+                      <a href="#" panel-name="suite-Smoke" class="show-methods passed suite-Smoke"> (show)</a> <!-- show-methods passed suite-Smoke -->
+                    </span>
+                    <div class="method-list-content passed suite-Smoke">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.RandomScenariosTest" class="method navigator-link" hash-for-method="blockinganeventinthecalender">blockinganeventinthecalender</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.RandomScenariosTest" class="method navigator-link" hash-for-method="blockinganeventinthecalenderwithweeklyrecurrenace">blockinganeventinthecalenderwithweeklyrecurrenace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="checkMyContactsinthecontactpage">checkMyContactsinthecontactpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LoginTest" class="method navigator-link" hash-for-method="checkRememberMe">checkRememberMe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="checkcancelbutton">checkcancelbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LeadsTest" class="method navigator-link" hash-for-method="checknewbuttononleadshome">checknewbuttononleadshome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="checkrecentlycreatedcontact">checkrecentlycreatedcontact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="checksaveandnewbutton">checksaveandnewbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.AccountsTest" class="method navigator-link" hash-for-method="createaccount">createaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.AccountsTest" class="method navigator-link" hash-for-method="createaccountreport">createaccountreport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="createnewcontact">createnewcontact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.OpportunityTest" class="method navigator-link" hash-for-method="createnewopportunity">createnewopportunity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.AccountsTest" class="method navigator-link" hash-for-method="createnewview">createnewview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LeadsTest" class="method navigator-link" hash-for-method="defaultview">defaultview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.ContactsTest" class="method navigator-link" hash-for-method="errormessage">errormessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LoginTest" class="method navigator-link" hash-for-method="forgotPassword">forgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LeadsTest" class="method navigator-link" hash-for-method="leadsselectview">leadsselectview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LeadsTest" class="method navigator-link" hash-for-method="leadstab">leadstab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LoginTest" class="method navigator-link" hash-for-method="loginerror">loginerror</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LoginTest" class="method navigator-link" hash-for-method="logintoapplication">logintoapplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.AccountsTest" class="method navigator-link" hash-for-method="mergeaccounts">mergeaccounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.OpportunityTest" class="method navigator-link" hash-for-method="opportunitiesdropdown">opportunitiesdropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.OpportunityTest" class="method navigator-link" hash-for-method="quarterlysummerreport">quarterlysummerreport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.UsermenuTest" class="method navigator-link" hash-for-method="selectdevconsolefromusernamedropdwn">selectdevconsolefromusernamedropdwn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.UsermenuTest" class="method navigator-link" hash-for-method="selectlogoutfromusermenudropdown">selectlogoutfromusermenudropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.UsermenuTest" class="method navigator-link" hash-for-method="selectmysettingsfromusermenu">selectmysettingsfromusermenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LeadsTest" class="method navigator-link" hash-for-method="selecttodaysleadsfromviewdropdown">selecttodaysleadsfromviewdropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.OpportunityTest" class="method navigator-link" hash-for-method="testopportunitypipelinereport">testopportunitypipelinereport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.OpportunityTest" class="method navigator-link" hash-for-method="teststuckopportunityreport">teststuckopportunityreport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.LoginTest" class="method navigator-link" hash-for-method="validateloginErrorMessage">validateloginErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.RandomScenariosTest" class="method navigator-link" hash-for-method="verifyeditedlastnameisupdated">verifyeditedlastnameisupdated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.RandomScenariosTest" class="method navigator-link" hash-for-method="verifyfirstnameandlastnameoftheloggedinuser">verifyfirstnameandlastnameoftheloggedinuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Smoke" title="com.testng.tests.RandomScenariosTest" class="method navigator-link" hash-for-method="verifythetabcustomization">verifythetabcustomization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Smoke -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smoke" class="panel Smoke">
+          <div class="suite-Smoke-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testng.tests.AccountsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editview">
+                  </a> <!-- editview -->
+                  <span class="method-name">editview</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Daffodils1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-678UJMN&apos;, ip: &apos;192.168.1.113&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testng.pages.AccountsPage.selectfromdropdown(AccountsPage.java:161)
+	at com.testng.tests.AccountsTest.editview(AccountsTest.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-failed -->
+          <div class="suite-Smoke-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testng.tests.UsermenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectUsermenufromusermenudropdown">
+                  </a> <!-- selectUsermenufromusermenudropdown -->
+                  <span class="method-name">selectUsermenufromusermenudropdown</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Silpa Rajan1] but found [Silpa Abcd]
+	at com.testng.base.BasePage.compareText(BasePage.java:23)
+	at com.testng.pages.UsermenuPage.checkforusermenu(UsermenuPage.java:132)
+	at com.testng.tests.UsermenuTest.selectUsermenufromusermenudropdown(UsermenuTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectmyprofilefromusermenu">
+                  </a> <!-- selectmyprofilefromusermenu -->
+                  <span class="method-name">selectmyprofilefromusermenu</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Silpa Rajan1] but found [Silpa Abcd]
+	at com.testng.base.BasePage.compareText(BasePage.java:23)
+	at com.testng.pages.UsermenuPage.checkforusermenu(UsermenuPage.java:132)
+	at com.testng.tests.UsermenuTest.selectmyprofilefromusermenu(UsermenuTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-failed -->
+          <div class="suite-Smoke-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testng.tests.ContactsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewviewinthecontactpage">
+                  </a> <!-- createnewviewinthecontactpage -->
+                  <span class="method-name">createnewviewinthecontactpage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Contacts ~ Salesforce - Developer Edition] but found [Salesforce - Developer Edition]
+	at com.testng.base.BasePage.compareTitle(BasePage.java:26)
+	at com.testng.pages.ContactsPage.contacthomepagevalidn(ContactsPage.java:98)
+	at com.testng.tests.ContactsTest.createnewviewinthecontactpage(ContactsTest.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewacontactinthecontactpage">
+                  </a> <!-- viewacontactinthecontactpage -->
+                  <span class="method-name">viewacontactinthecontactpage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;dev&apos;)]&quot;}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-678UJMN&apos;, ip: &apos;192.168.1.113&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\silpa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0a7f82620e72ba50200303d849bb9ac
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;dev&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at com.testng.pages.ContactsPage.clickanyname(ContactsPage.java:115)
+	at com.testng.tests.ContactsTest.viewacontactinthecontactpage(ContactsTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-failed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRememberMe">
+                  </a> <!-- checkRememberMe -->
+                  <span class="method-name">checkRememberMe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword">
+                  </a> <!-- forgotPassword -->
+                  <span class="method-name">forgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginerror">
+                  </a> <!-- loginerror -->
+                  <span class="method-name">loginerror</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintoapplication">
+                  </a> <!-- logintoapplication -->
+                  <span class="method-name">logintoapplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateloginErrorMessage">
+                  </a> <!-- validateloginErrorMessage -->
+                  <span class="method-name">validateloginErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.tests.AccountsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createaccount">
+                  </a> <!-- createaccount -->
+                  <span class="method-name">createaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createaccountreport">
+                  </a> <!-- createaccountreport -->
+                  <span class="method-name">createaccountreport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewview">
+                  </a> <!-- createnewview -->
+                  <span class="method-name">createnewview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mergeaccounts">
+                  </a> <!-- mergeaccounts -->
+                  <span class="method-name">mergeaccounts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.tests.LeadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checknewbuttononleadshome">
+                  </a> <!-- checknewbuttononleadshome -->
+                  <span class="method-name">checknewbuttononleadshome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="defaultview">
+                  </a> <!-- defaultview -->
+                  <span class="method-name">defaultview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leadsselectview">
+                  </a> <!-- leadsselectview -->
+                  <span class="method-name">leadsselectview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leadstab">
+                  </a> <!-- leadstab -->
+                  <span class="method-name">leadstab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecttodaysleadsfromviewdropdown">
+                  </a> <!-- selecttodaysleadsfromviewdropdown -->
+                  <span class="method-name">selecttodaysleadsfromviewdropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.tests.OpportunityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewopportunity">
+                  </a> <!-- createnewopportunity -->
+                  <span class="method-name">createnewopportunity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="opportunitiesdropdown">
+                  </a> <!-- opportunitiesdropdown -->
+                  <span class="method-name">opportunitiesdropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quarterlysummerreport">
+                  </a> <!-- quarterlysummerreport -->
+                  <span class="method-name">quarterlysummerreport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testopportunitypipelinereport">
+                  </a> <!-- testopportunitypipelinereport -->
+                  <span class="method-name">testopportunitypipelinereport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="teststuckopportunityreport">
+                  </a> <!-- teststuckopportunityreport -->
+                  <span class="method-name">teststuckopportunityreport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.tests.UsermenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectdevconsolefromusernamedropdwn">
+                  </a> <!-- selectdevconsolefromusernamedropdwn -->
+                  <span class="method-name">selectdevconsolefromusernamedropdwn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectlogoutfromusermenudropdown">
+                  </a> <!-- selectlogoutfromusermenudropdown -->
+                  <span class="method-name">selectlogoutfromusermenudropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectmysettingsfromusermenu">
+                  </a> <!-- selectmysettingsfromusermenu -->
+                  <span class="method-name">selectmysettingsfromusermenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.tests.ContactsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMyContactsinthecontactpage">
+                  </a> <!-- checkMyContactsinthecontactpage -->
+                  <span class="method-name">checkMyContactsinthecontactpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkcancelbutton">
+                  </a> <!-- checkcancelbutton -->
+                  <span class="method-name">checkcancelbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkrecentlycreatedcontact">
+                  </a> <!-- checkrecentlycreatedcontact -->
+                  <span class="method-name">checkrecentlycreatedcontact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checksaveandnewbutton">
+                  </a> <!-- checksaveandnewbutton -->
+                  <span class="method-name">checksaveandnewbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontact">
+                  </a> <!-- createnewcontact -->
+                  <span class="method-name">createnewcontact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errormessage">
+                  </a> <!-- errormessage -->
+                  <span class="method-name">errormessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+          <div class="suite-Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testng.tests.RandomScenariosTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blockinganeventinthecalender">
+                  </a> <!-- blockinganeventinthecalender -->
+                  <span class="method-name">blockinganeventinthecalender</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blockinganeventinthecalenderwithweeklyrecurrenace">
+                  </a> <!-- blockinganeventinthecalenderwithweeklyrecurrenace -->
+                  <span class="method-name">blockinganeventinthecalenderwithweeklyrecurrenace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyeditedlastnameisupdated">
+                  </a> <!-- verifyeditedlastnameisupdated -->
+                  <span class="method-name">verifyeditedlastnameisupdated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfirstnameandlastnameoftheloggedinuser">
+                  </a> <!-- verifyfirstnameandlastnameoftheloggedinuser -->
+                  <span class="method-name">verifyfirstnameandlastnameoftheloggedinuser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifythetabcustomization">
+                  </a> <!-- verifythetabcustomization -->
+                  <span class="method-name">verifythetabcustomization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke-class-passed -->
+        </div> <!-- panel Smoke -->
+        <div panel-name="test-xml-Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\silpa\eclipse-workspace\TestNGFrameworkSalesforce\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Smoke&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;Ammukutty12&quot;/&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;silu@test.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.testng.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Usermenu&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.tests.UsermenuTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Usermenu --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Accounts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.tests.AccountsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Accounts --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Opportunity&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.tests.OpportunityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Opportunity --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Leads&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.tests.LeadsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Leads --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Contacts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.tests.ContactsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Contacts --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RandomScenarios&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testng.tests.RandomScenariosTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RandomScenarios --&gt;
+&lt;/suite&gt; &lt;!-- Smoke --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Usermenu (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Accounts (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Opportunity (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Leads (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Contacts (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RandomScenarios (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smoke');
+function tableData_Smoke() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'mergeaccounts')
+data.setCell(0, 2, 'com.testng.tests.AccountsTest')
+data.setCell(0, 3, 11911);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyeditedlastnameisupdated')
+data.setCell(1, 2, 'com.testng.tests.RandomScenariosTest')
+data.setCell(1, 3, 10586);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifythetabcustomization')
+data.setCell(2, 2, 'com.testng.tests.RandomScenariosTest')
+data.setCell(2, 3, 10187);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createnewopportunity')
+data.setCell(3, 2, 'com.testng.tests.OpportunityTest')
+data.setCell(3, 3, 9702);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'blockinganeventinthecalenderwithweeklyrecurrenace')
+data.setCell(4, 2, 'com.testng.tests.RandomScenariosTest')
+data.setCell(4, 3, 8928);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'blockinganeventinthecalender')
+data.setCell(5, 2, 'com.testng.tests.RandomScenariosTest')
+data.setCell(5, 3, 8340);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'defaultview')
+data.setCell(6, 2, 'com.testng.tests.LeadsTest')
+data.setCell(6, 3, 8023);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createaccount')
+data.setCell(7, 2, 'com.testng.tests.AccountsTest')
+data.setCell(7, 3, 7738);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createnewcontact')
+data.setCell(8, 2, 'com.testng.tests.ContactsTest')
+data.setCell(8, 3, 7194);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selecttodaysleadsfromviewdropdown')
+data.setCell(9, 2, 'com.testng.tests.LeadsTest')
+data.setCell(9, 3, 7006);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectmysettingsfromusermenu')
+data.setCell(10, 2, 'com.testng.tests.UsermenuTest')
+data.setCell(10, 3, 6755);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createaccountreport')
+data.setCell(11, 2, 'com.testng.tests.AccountsTest')
+data.setCell(11, 3, 6706);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'teststuckopportunityreport')
+data.setCell(12, 2, 'com.testng.tests.OpportunityTest')
+data.setCell(12, 3, 6687);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checknewbuttononleadshome')
+data.setCell(13, 2, 'com.testng.tests.LeadsTest')
+data.setCell(13, 3, 6596);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyfirstnameandlastnameoftheloggedinuser')
+data.setCell(14, 2, 'com.testng.tests.RandomScenariosTest')
+data.setCell(14, 3, 6283);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkcancelbutton')
+data.setCell(15, 2, 'com.testng.tests.ContactsTest')
+data.setCell(15, 3, 5887);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testopportunitypipelinereport')
+data.setCell(16, 2, 'com.testng.tests.OpportunityTest')
+data.setCell(16, 3, 5695);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'createnewview')
+data.setCell(17, 2, 'com.testng.tests.AccountsTest')
+data.setCell(17, 3, 5249);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'editview')
+data.setCell(18, 2, 'com.testng.tests.AccountsTest')
+data.setCell(18, 3, 5092);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'leadsselectview')
+data.setCell(19, 2, 'com.testng.tests.LeadsTest')
+data.setCell(19, 3, 4980);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkRememberMe')
+data.setCell(20, 2, 'com.testng.tests.LoginTest')
+data.setCell(20, 3, 4843);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checksaveandnewbutton')
+data.setCell(21, 2, 'com.testng.tests.ContactsTest')
+data.setCell(21, 3, 4770);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'errormessage')
+data.setCell(22, 2, 'com.testng.tests.ContactsTest')
+data.setCell(22, 3, 4732);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'createnewviewinthecontactpage')
+data.setCell(23, 2, 'com.testng.tests.ContactsTest')
+data.setCell(23, 3, 4718);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'quarterlysummerreport')
+data.setCell(24, 2, 'com.testng.tests.OpportunityTest')
+data.setCell(24, 3, 4655);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'opportunitiesdropdown')
+data.setCell(25, 2, 'com.testng.tests.OpportunityTest')
+data.setCell(25, 3, 4112);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'viewacontactinthecontactpage')
+data.setCell(26, 2, 'com.testng.tests.ContactsTest')
+data.setCell(26, 3, 3946);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'leadstab')
+data.setCell(27, 2, 'com.testng.tests.LeadsTest')
+data.setCell(27, 3, 3921);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkrecentlycreatedcontact')
+data.setCell(28, 2, 'com.testng.tests.ContactsTest')
+data.setCell(28, 3, 3839);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'selectlogoutfromusermenudropdown')
+data.setCell(29, 2, 'com.testng.tests.UsermenuTest')
+data.setCell(29, 3, 3825);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkMyContactsinthecontactpage')
+data.setCell(30, 2, 'com.testng.tests.ContactsTest')
+data.setCell(30, 3, 3650);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'selectdevconsolefromusernamedropdwn')
+data.setCell(31, 2, 'com.testng.tests.UsermenuTest')
+data.setCell(31, 3, 3481);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'logintoapplication')
+data.setCell(32, 2, 'com.testng.tests.LoginTest')
+data.setCell(32, 3, 3464);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'selectUsermenufromusermenudropdown')
+data.setCell(33, 2, 'com.testng.tests.UsermenuTest')
+data.setCell(33, 3, 3308);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'selectmyprofilefromusermenu')
+data.setCell(34, 2, 'com.testng.tests.UsermenuTest')
+data.setCell(34, 3, 3212);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'forgotPassword')
+data.setCell(35, 2, 'com.testng.tests.LoginTest')
+data.setCell(35, 3, 1331);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'loginerror')
+data.setCell(36, 2, 'com.testng.tests.LoginTest')
+data.setCell(36, 3, 635);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'validateloginErrorMessage')
+data.setCell(37, 2, 'com.testng.tests.LoginTest')
+data.setCell(37, 3, 369);
+window.suiteTableData['Smoke']= { tableData: data, tableDiv: 'times-div-Smoke'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Smoke">
+              </div> <!-- times-div-Smoke -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkRememberMe</span>
+                <span class="method-start">2381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">7233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">7489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword</span>
+                <span class="method-start">9401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">10945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginerror</span>
+                <span class="method-start">12875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">13511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">13692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logintoapplication</span>
+                <span class="method-start">16738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">20203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">20432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateloginErrorMessage</span>
+                <span class="method-start">22298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">22667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.tests.UsermenuTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">23166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectUsermenufromusermenudropdown</span>
+                <span class="method-start">24999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">28309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">28571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectdevconsolefromusernamedropdwn</span>
+                <span class="method-start">30349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">33830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">34058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectlogoutfromusermenudropdown</span>
+                <span class="method-start">35909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">39736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">39940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectmyprofilefromusermenu</span>
+                <span class="method-start">41782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">44995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">45234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectmysettingsfromusermenu</span>
+                <span class="method-start">47012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">53768 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.tests.AccountsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">54119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createaccount</span>
+                <span class="method-start">55938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">63677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">63899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createaccountreport</span>
+                <span class="method-start">65796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">72503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">72738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createnewview</span>
+                <span class="method-start">74653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">79903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">80152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editview</span>
+                <span class="method-start">81882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">86975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">87391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mergeaccounts</span>
+                <span class="method-start">90157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">102069 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.tests.OpportunityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">102953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createnewopportunity</span>
+                <span class="method-start">104961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">114665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">114929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">opportunitiesdropdown</span>
+                <span class="method-start">116779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">120893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">121257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">quarterlysummerreport</span>
+                <span class="method-start">123167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">127822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">128046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testopportunitypipelinereport</span>
+                <span class="method-start">129867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">135564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">135884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">teststuckopportunityreport</span>
+                <span class="method-start">139066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">145754 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.tests.LeadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">146288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checknewbuttononleadshome</span>
+                <span class="method-start">148163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">154760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">154973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">defaultview</span>
+                <span class="method-start">156810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">164834 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">165134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leadsselectview</span>
+                <span class="method-start">166879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">171860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">172209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leadstab</span>
+                <span class="method-start">174012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">177934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">178408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selecttodaysleadsfromviewdropdown</span>
+                <span class="method-start">180205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">187212 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.tests.ContactsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">187559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMyContactsinthecontactpage</span>
+                <span class="method-start">189408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">193059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">193571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkcancelbutton</span>
+                <span class="method-start">195324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">201212 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">201485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkrecentlycreatedcontact</span>
+                <span class="method-start">203313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">207153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">207583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checksaveandnewbutton</span>
+                <span class="method-start">209398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">214169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">214394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createnewcontact</span>
+                <span class="method-start">216265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">223460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">223692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createnewviewinthecontactpage</span>
+                <span class="method-start">226421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">231139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">231372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">errormessage</span>
+                <span class="method-start">233195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">237929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">238161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">viewacontactinthecontactpage</span>
+                <span class="method-start">240049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">243996 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testng.tests.RandomScenariosTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">244724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blockinganeventinthecalender</span>
+                <span class="method-start">246547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">254888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">255141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blockinganeventinthecalenderwithweeklyrecurrenace</span>
+                <span class="method-start">256859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">265788 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">266023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyeditedlastnameisupdated</span>
+                <span class="method-start">267456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">278044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">278288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfirstnameandlastnameoftheloggedinuser</span>
+                <span class="method-start">279756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">286040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">286276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifythetabcustomization</span>
+                <span class="method-start">287741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">297929 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

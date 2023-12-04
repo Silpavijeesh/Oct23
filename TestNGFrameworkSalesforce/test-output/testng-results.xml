@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="33" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-03T16:53:25 EST" name="Smoke" finished-at="2023-12-03T16:58:24 EST" duration-ms="298211">
+    <groups>
+    </groups>
+    <test started-at="2023-12-03T16:53:25 EST" name="Login" finished-at="2023-12-03T16:53:48 EST" duration-ms="22919">
+      <class name="com.testng.tests.LoginTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:25 EST" name="beforemethod" finished-at="2023-12-03T16:53:28 EST" duration-ms="2380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkRememberMe()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:28 EST" name="checkRememberMe" finished-at="2023-12-03T16:53:33 EST" duration-ms="4843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRememberMe -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:33 EST" name="teardown" finished-at="2023-12-03T16:53:33 EST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:33 EST" name="beforemethod" finished-at="2023-12-03T16:53:35 EST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="forgotPassword()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:35 EST" name="forgotPassword" finished-at="2023-12-03T16:53:36 EST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:36 EST" name="teardown" finished-at="2023-12-03T16:53:36 EST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:36 EST" name="beforemethod" finished-at="2023-12-03T16:53:38 EST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginerror()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:38 EST" name="loginerror" finished-at="2023-12-03T16:53:39 EST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerror -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:39 EST" name="teardown" finished-at="2023-12-03T16:53:39 EST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:39 EST" name="beforemethod" finished-at="2023-12-03T16:53:42 EST" duration-ms="3046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="logintoapplication()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:42 EST" name="logintoapplication" finished-at="2023-12-03T16:53:46 EST" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapplication -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:46 EST" name="teardown" finished-at="2023-12-03T16:53:46 EST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:46 EST" name="beforemethod" finished-at="2023-12-03T16:53:48 EST" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="validateloginErrorMessage()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:48 EST" name="validateloginErrorMessage" finished-at="2023-12-03T16:53:48 EST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginErrorMessage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LoginTest@9597028]" started-at="2023-12-03T16:53:48 EST" name="teardown" finished-at="2023-12-03T16:53:48 EST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2023-12-03T16:53:49 EST" name="Usermenu" finished-at="2023-12-03T16:54:19 EST" duration-ms="30832">
+      <class name="com.testng.tests.UsermenuTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:53:49 EST" name="beforemethod" finished-at="2023-12-03T16:53:50 EST" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="selectUsermenufromusermenudropdown()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:53:50 EST" name="selectUsermenufromusermenudropdown" finished-at="2023-12-03T16:53:54 EST" duration-ms="3308" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Silpa Rajan1] but found [Silpa Abcd]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Silpa Rajan1] but found [Silpa Abcd]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.testng.base.BasePage.compareText(BasePage.java:23)
+at com.testng.pages.UsermenuPage.checkforusermenu(UsermenuPage.java:132)
+at com.testng.tests.UsermenuTest.selectUsermenufromusermenudropdown(UsermenuTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectUsermenufromusermenudropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:53:54 EST" name="teardown" finished-at="2023-12-03T16:53:54 EST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:53:54 EST" name="beforemethod" finished-at="2023-12-03T16:53:56 EST" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="selectdevconsolefromusernamedropdwn()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:53:56 EST" name="selectdevconsolefromusernamedropdwn" finished-at="2023-12-03T16:53:59 EST" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectdevconsolefromusernamedropdwn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:53:59 EST" name="teardown" finished-at="2023-12-03T16:53:59 EST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:53:59 EST" name="beforemethod" finished-at="2023-12-03T16:54:01 EST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="selectlogoutfromusermenudropdown()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:01 EST" name="selectlogoutfromusermenudropdown" finished-at="2023-12-03T16:54:05 EST" duration-ms="3825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectlogoutfromusermenudropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:05 EST" name="teardown" finished-at="2023-12-03T16:54:05 EST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:05 EST" name="beforemethod" finished-at="2023-12-03T16:54:07 EST" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="selectmyprofilefromusermenu()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:07 EST" name="selectmyprofilefromusermenu" finished-at="2023-12-03T16:54:10 EST" duration-ms="3212" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Silpa Rajan1] but found [Silpa Abcd]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Silpa Rajan1] but found [Silpa Abcd]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.testng.base.BasePage.compareText(BasePage.java:23)
+at com.testng.pages.UsermenuPage.checkforusermenu(UsermenuPage.java:132)
+at com.testng.tests.UsermenuTest.selectmyprofilefromusermenu(UsermenuTest.java:66)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectmyprofilefromusermenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:10 EST" name="teardown" finished-at="2023-12-03T16:54:11 EST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:11 EST" name="beforemethod" finished-at="2023-12-03T16:54:12 EST" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="selectmysettingsfromusermenu()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:12 EST" name="selectmysettingsfromusermenu" finished-at="2023-12-03T16:54:19 EST" duration-ms="6755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectmysettingsfromusermenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.UsermenuTest@40a4337a]" started-at="2023-12-03T16:54:19 EST" name="teardown" finished-at="2023-12-03T16:54:19 EST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.UsermenuTest -->
+    </test> <!-- Usermenu -->
+    <test started-at="2023-12-03T16:54:20 EST" name="Accounts" finished-at="2023-12-03T16:55:08 EST" duration-ms="48732">
+      <class name="com.testng.tests.AccountsTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:20 EST" name="beforemethod" finished-at="2023-12-03T16:54:21 EST" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createaccount()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:21 EST" name="createaccount" finished-at="2023-12-03T16:54:29 EST" duration-ms="7738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:29 EST" name="teardown" finished-at="2023-12-03T16:54:29 EST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:29 EST" name="beforemethod" finished-at="2023-12-03T16:54:31 EST" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createaccountreport()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:31 EST" name="createaccountreport" finished-at="2023-12-03T16:54:38 EST" duration-ms="6706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccountreport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:38 EST" name="teardown" finished-at="2023-12-03T16:54:38 EST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:38 EST" name="beforemethod" finished-at="2023-12-03T16:54:40 EST" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createnewview()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:40 EST" name="createnewview" finished-at="2023-12-03T16:54:45 EST" duration-ms="5249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewview -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:45 EST" name="teardown" finished-at="2023-12-03T16:54:46 EST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:46 EST" name="beforemethod" finished-at="2023-12-03T16:54:47 EST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="editview()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:47 EST" name="editview" finished-at="2023-12-03T16:54:52 EST" duration-ms="5092" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Daffodils1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-678UJMN', ip: '192.168.1.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Daffodils1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-678UJMN', ip: '192.168.1.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.testng.pages.AccountsPage.selectfromdropdown(AccountsPage.java:161)
+at com.testng.tests.AccountsTest.editview(AccountsTest.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editview -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:52 EST" name="teardown" finished-at="2023-12-03T16:54:53 EST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:53 EST" name="beforemethod" finished-at="2023-12-03T16:54:56 EST" duration-ms="2766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="mergeaccounts()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:54:56 EST" name="mergeaccounts" finished-at="2023-12-03T16:55:07 EST" duration-ms="11911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeaccounts -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.AccountsTest@7586beff]" started-at="2023-12-03T16:55:07 EST" name="teardown" finished-at="2023-12-03T16:55:08 EST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.AccountsTest -->
+    </test> <!-- Accounts -->
+    <test started-at="2023-12-03T16:55:08 EST" name="Opportunity" finished-at="2023-12-03T16:55:52 EST" duration-ms="43224">
+      <class name="com.testng.tests.OpportunityTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:08 EST" name="beforemethod" finished-at="2023-12-03T16:55:10 EST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createnewopportunity()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:10 EST" name="createnewopportunity" finished-at="2023-12-03T16:55:20 EST" duration-ms="9702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewopportunity -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:20 EST" name="teardown" finished-at="2023-12-03T16:55:20 EST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:20 EST" name="beforemethod" finished-at="2023-12-03T16:55:22 EST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="opportunitiesdropdown()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:22 EST" name="opportunitiesdropdown" finished-at="2023-12-03T16:55:26 EST" duration-ms="4112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitiesdropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:26 EST" name="teardown" finished-at="2023-12-03T16:55:27 EST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:27 EST" name="beforemethod" finished-at="2023-12-03T16:55:29 EST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="quarterlysummerreport()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:29 EST" name="quarterlysummerreport" finished-at="2023-12-03T16:55:33 EST" duration-ms="4655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quarterlysummerreport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:33 EST" name="teardown" finished-at="2023-12-03T16:55:33 EST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:33 EST" name="beforemethod" finished-at="2023-12-03T16:55:35 EST" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testopportunitypipelinereport()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:35 EST" name="testopportunitypipelinereport" finished-at="2023-12-03T16:55:41 EST" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testopportunitypipelinereport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:41 EST" name="teardown" finished-at="2023-12-03T16:55:41 EST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:41 EST" name="beforemethod" finished-at="2023-12-03T16:55:44 EST" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="teststuckopportunityreport()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:44 EST" name="teststuckopportunityreport" finished-at="2023-12-03T16:55:51 EST" duration-ms="6687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststuckopportunityreport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.OpportunityTest@1f2586d6]" started-at="2023-12-03T16:55:51 EST" name="teardown" finished-at="2023-12-03T16:55:52 EST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.OpportunityTest -->
+    </test> <!-- Opportunity -->
+    <test started-at="2023-12-03T16:55:52 EST" name="Leads" finished-at="2023-12-03T16:56:33 EST" duration-ms="41156">
+      <class name="com.testng.tests.LeadsTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:55:52 EST" name="beforemethod" finished-at="2023-12-03T16:55:54 EST" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checknewbuttononleadshome()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:55:54 EST" name="checknewbuttononleadshome" finished-at="2023-12-03T16:56:00 EST" duration-ms="6596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknewbuttononleadshome -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:00 EST" name="teardown" finished-at="2023-12-03T16:56:00 EST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:00 EST" name="beforemethod" finished-at="2023-12-03T16:56:02 EST" duration-ms="1836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="defaultview()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:02 EST" name="defaultview" finished-at="2023-12-03T16:56:10 EST" duration-ms="8023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultview -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:10 EST" name="teardown" finished-at="2023-12-03T16:56:11 EST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:11 EST" name="beforemethod" finished-at="2023-12-03T16:56:12 EST" duration-ms="1745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="leadsselectview()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:12 EST" name="leadsselectview" finished-at="2023-12-03T16:56:17 EST" duration-ms="4980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsselectview -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:17 EST" name="teardown" finished-at="2023-12-03T16:56:18 EST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:18 EST" name="beforemethod" finished-at="2023-12-03T16:56:19 EST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="leadstab()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:19 EST" name="leadstab" finished-at="2023-12-03T16:56:23 EST" duration-ms="3921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadstab -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:23 EST" name="teardown" finished-at="2023-12-03T16:56:24 EST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:24 EST" name="beforemethod" finished-at="2023-12-03T16:56:26 EST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="selecttodaysleadsfromviewdropdown()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:26 EST" name="selecttodaysleadsfromviewdropdown" finished-at="2023-12-03T16:56:33 EST" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecttodaysleadsfromviewdropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.LeadsTest@31190526]" started-at="2023-12-03T16:56:33 EST" name="teardown" finished-at="2023-12-03T16:56:33 EST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.LeadsTest -->
+    </test> <!-- Leads -->
+    <test started-at="2023-12-03T16:56:33 EST" name="Contacts" finished-at="2023-12-03T16:57:30 EST" duration-ms="57060">
+      <class name="com.testng.tests.ContactsTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:33 EST" name="beforemethod" finished-at="2023-12-03T16:56:35 EST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkMyContactsinthecontactpage()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:35 EST" name="checkMyContactsinthecontactpage" finished-at="2023-12-03T16:56:38 EST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMyContactsinthecontactpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:38 EST" name="teardown" finished-at="2023-12-03T16:56:39 EST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:39 EST" name="beforemethod" finished-at="2023-12-03T16:56:41 EST" duration-ms="1753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkcancelbutton()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:41 EST" name="checkcancelbutton" finished-at="2023-12-03T16:56:47 EST" duration-ms="5887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcancelbutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:47 EST" name="teardown" finished-at="2023-12-03T16:56:47 EST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:47 EST" name="beforemethod" finished-at="2023-12-03T16:56:49 EST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkrecentlycreatedcontact()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:49 EST" name="checkrecentlycreatedcontact" finished-at="2023-12-03T16:56:53 EST" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkrecentlycreatedcontact -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:53 EST" name="teardown" finished-at="2023-12-03T16:56:53 EST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:53 EST" name="beforemethod" finished-at="2023-12-03T16:56:55 EST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checksaveandnewbutton()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:56:55 EST" name="checksaveandnewbutton" finished-at="2023-12-03T16:57:00 EST" duration-ms="4770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksaveandnewbutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:00 EST" name="teardown" finished-at="2023-12-03T16:57:00 EST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:00 EST" name="beforemethod" finished-at="2023-12-03T16:57:02 EST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createnewcontact()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:02 EST" name="createnewcontact" finished-at="2023-12-03T16:57:09 EST" duration-ms="7194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcontact -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:09 EST" name="teardown" finished-at="2023-12-03T16:57:09 EST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:09 EST" name="beforemethod" finished-at="2023-12-03T16:57:12 EST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createnewviewinthecontactpage()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:12 EST" name="createnewviewinthecontactpage" finished-at="2023-12-03T16:57:17 EST" duration-ms="4718" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Contacts ~ Salesforce - Developer Edition] but found [Salesforce - Developer Edition]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Contacts ~ Salesforce - Developer Edition] but found [Salesforce - Developer Edition]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.testng.base.BasePage.compareTitle(BasePage.java:26)
+at com.testng.pages.ContactsPage.contacthomepagevalidn(ContactsPage.java:98)
+at com.testng.tests.ContactsTest.createnewviewinthecontactpage(ContactsTest.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewviewinthecontactpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:17 EST" name="teardown" finished-at="2023-12-03T16:57:17 EST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:17 EST" name="beforemethod" finished-at="2023-12-03T16:57:19 EST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="errormessage()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:19 EST" name="errormessage" finished-at="2023-12-03T16:57:23 EST" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errormessage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:23 EST" name="teardown" finished-at="2023-12-03T16:57:24 EST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:24 EST" name="beforemethod" finished-at="2023-12-03T16:57:25 EST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="viewacontactinthecontactpage()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:25 EST" name="viewacontactinthecontactpage" finished-at="2023-12-03T16:57:29 EST" duration-ms="3946" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'dev')]"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-678UJMN', ip: '192.168.1.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\silpa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0a7f82620e72ba50200303d849bb9ac
+*** Element info: {Using=xpath, value=//a[contains(text(),'dev')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'dev')]"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-678UJMN', ip: '192.168.1.113', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\silpa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0a7f82620e72ba50200303d849bb9ac
+*** Element info: {Using=xpath, value=//a[contains(text(),'dev')]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+at com.testng.pages.ContactsPage.clickanyname(ContactsPage.java:115)
+at com.testng.tests.ContactsTest.viewacontactinthecontactpage(ContactsTest.java:132)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewacontactinthecontactpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.ContactsTest@179ece50]" started-at="2023-12-03T16:57:29 EST" name="teardown" finished-at="2023-12-03T16:57:30 EST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.ContactsTest -->
+    </test> <!-- Contacts -->
+    <test started-at="2023-12-03T16:57:30 EST" name="RandomScenarios" finished-at="2023-12-03T16:58:24 EST" duration-ms="53447">
+      <class name="com.testng.tests.RandomScenariosTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:30 EST" name="beforemethod" finished-at="2023-12-03T16:57:32 EST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="blockinganeventinthecalender()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:32 EST" name="blockinganeventinthecalender" finished-at="2023-12-03T16:57:40 EST" duration-ms="8340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockinganeventinthecalender -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:40 EST" name="teardown" finished-at="2023-12-03T16:57:41 EST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:41 EST" name="beforemethod" finished-at="2023-12-03T16:57:42 EST" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="blockinganeventinthecalenderwithweeklyrecurrenace()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:42 EST" name="blockinganeventinthecalenderwithweeklyrecurrenace" finished-at="2023-12-03T16:57:51 EST" duration-ms="8928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockinganeventinthecalenderwithweeklyrecurrenace -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:51 EST" name="teardown" finished-at="2023-12-03T16:57:51 EST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:51 EST" name="beforemethod" finished-at="2023-12-03T16:57:53 EST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyeditedlastnameisupdated()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:57:53 EST" name="verifyeditedlastnameisupdated" finished-at="2023-12-03T16:58:03 EST" duration-ms="10586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyeditedlastnameisupdated -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:58:03 EST" name="teardown" finished-at="2023-12-03T16:58:04 EST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:58:04 EST" name="beforemethod" finished-at="2023-12-03T16:58:05 EST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifyfirstnameandlastnameoftheloggedinuser()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:58:05 EST" name="verifyfirstnameandlastnameoftheloggedinuser" finished-at="2023-12-03T16:58:11 EST" duration-ms="6283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfirstnameandlastnameoftheloggedinuser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:58:11 EST" name="teardown" finished-at="2023-12-03T16:58:12 EST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:58:12 EST" name="beforemethod" finished-at="2023-12-03T16:58:13 EST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verifythetabcustomization()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:58:13 EST" name="verifythetabcustomization" finished-at="2023-12-03T16:58:23 EST" duration-ms="10187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythetabcustomization -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.RandomScenariosTest@489115ef]" started-at="2023-12-03T16:58:23 EST" name="teardown" finished-at="2023-12-03T16:58:24 EST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.RandomScenariosTest -->
+    </test> <!-- RandomScenarios -->
+  </suite> <!-- Smoke -->
+</testng-results>

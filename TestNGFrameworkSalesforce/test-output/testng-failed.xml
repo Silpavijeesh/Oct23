@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Ammukutty12"/>
+  <parameter name="username" value="silu@test.com"/>
+  <listeners>
+    <listener class-name="com.testng.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Usermenu(failed)">
+    <classes>
+      <class name="com.testng.tests.UsermenuTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="teardown"/>
+          <include name="selectUsermenufromusermenudropdown"/>
+          <include name="selectmyprofilefromusermenu"/>
+        </methods>
+      </class> <!-- com.testng.tests.UsermenuTest -->
+    </classes>
+  </test> <!-- Usermenu(failed) -->
+  <test thread-count="5" name="Accounts(failed)">
+    <classes>
+      <class name="com.testng.tests.AccountsTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="teardown"/>
+          <include name="editview"/>
+        </methods>
+      </class> <!-- com.testng.tests.AccountsTest -->
+    </classes>
+  </test> <!-- Accounts(failed) -->
+  <test thread-count="5" name="Contacts(failed)">
+    <classes>
+      <class name="com.testng.tests.ContactsTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="viewacontactinthecontactpage"/>
+          <include name="teardown"/>
+          <include name="createnewviewinthecontactpage"/>
+        </methods>
+      </class> <!-- com.testng.tests.ContactsTest -->
+    </classes>
+  </test> <!-- Contacts(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
