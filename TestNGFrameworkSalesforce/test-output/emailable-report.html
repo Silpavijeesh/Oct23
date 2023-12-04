@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Smoke</th></tr>
+<tr><td><a href="#t0">Login</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,919</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Usermenu</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">30,832</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Accounts</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">48,732</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Opportunity</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">43,224</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Leads</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">41,156</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Contacts</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">57,060</td><td></td><td></td></tr>
+<tr><td><a href="#t6">RandomScenarios</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">53,447</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">33</th><th class="num">0</th><th class="num">0</th><th class="num attn">5</th><th class="num">297,370</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.testng.tests.LoginTest</td><td><a href="#m0">checkRememberMe</a></td><td rowspan="1">1701640408271</td><td rowspan="1">4843</td></tr><tr class="passedeven"><td><a href="#m1">forgotPassword</a></td><td rowspan="1">1701640415291</td><td rowspan="1">1331</td></tr><tr class="passedeven"><td><a href="#m2">loginerror</a></td><td rowspan="1">1701640418765</td><td rowspan="1">635</td></tr><tr class="passedeven"><td><a href="#m3">logintoapplication</a></td><td rowspan="1">1701640422628</td><td rowspan="1">3464</td></tr><tr class="passedeven"><td><a href="#m4">validateloginErrorMessage</a></td><td rowspan="1">1701640428188</td><td rowspan="1">369</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Usermenu &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.testng.tests.UsermenuTest</td><td><a href="#m5">selectUsermenufromusermenudropdown</a></td><td rowspan="1">1701640430889</td><td rowspan="1">3308</td></tr><tr class="failedeven"><td><a href="#m6">selectmyprofilefromusermenu</a></td><td rowspan="1">1701640447672</td><td rowspan="1">3212</td></tr><tr><th colspan="4">Usermenu &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.testng.tests.UsermenuTest</td><td><a href="#m7">selectdevconsolefromusernamedropdwn</a></td><td rowspan="1">1701640436239</td><td rowspan="1">3481</td></tr><tr class="passedeven"><td><a href="#m8">selectlogoutfromusermenudropdown</a></td><td rowspan="1">1701640441799</td><td rowspan="1">3825</td></tr><tr class="passedeven"><td><a href="#m9">selectmysettingsfromusermenu</a></td><td rowspan="1">1701640452902</td><td rowspan="1">6755</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Accounts &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.testng.tests.AccountsTest</td><td><a href="#m10">editview</a></td><td rowspan="1">1701640487772</td><td rowspan="1">5092</td></tr><tr><th colspan="4">Accounts &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.testng.tests.AccountsTest</td><td><a href="#m11">createaccount</a></td><td rowspan="1">1701640461828</td><td rowspan="1">7738</td></tr><tr class="passedeven"><td><a href="#m12">createaccountreport</a></td><td rowspan="1">1701640471686</td><td rowspan="1">6706</td></tr><tr class="passedeven"><td><a href="#m13">createnewview</a></td><td rowspan="1">1701640480543</td><td rowspan="1">5249</td></tr><tr class="passedeven"><td><a href="#m14">mergeaccounts</a></td><td rowspan="1">1701640496047</td><td rowspan="1">11911</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Opportunity &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.testng.tests.OpportunityTest</td><td><a href="#m15">createnewopportunity</a></td><td rowspan="1">1701640510851</td><td rowspan="1">9702</td></tr><tr class="passedeven"><td><a href="#m16">opportunitiesdropdown</a></td><td rowspan="1">1701640522669</td><td rowspan="1">4112</td></tr><tr class="passedeven"><td><a href="#m17">quarterlysummerreport</a></td><td rowspan="1">1701640529057</td><td rowspan="1">4655</td></tr><tr class="passedeven"><td><a href="#m18">testopportunitypipelinereport</a></td><td rowspan="1">1701640535757</td><td rowspan="1">5695</td></tr><tr class="passedeven"><td><a href="#m19">teststuckopportunityreport</a></td><td rowspan="1">1701640544956</td><td rowspan="1">6687</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Leads &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.testng.tests.LeadsTest</td><td><a href="#m20">checknewbuttononleadshome</a></td><td rowspan="1">1701640554053</td><td rowspan="1">6596</td></tr><tr class="passedeven"><td><a href="#m21">defaultview</a></td><td rowspan="1">1701640562700</td><td rowspan="1">8023</td></tr><tr class="passedeven"><td><a href="#m22">leadsselectview</a></td><td rowspan="1">1701640572769</td><td rowspan="1">4980</td></tr><tr class="passedeven"><td><a href="#m23">leadstab</a></td><td rowspan="1">1701640579902</td><td rowspan="1">3921</td></tr><tr class="passedeven"><td><a href="#m24">selecttodaysleadsfromviewdropdown</a></td><td rowspan="1">1701640586095</td><td rowspan="1">7006</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Contacts &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.testng.tests.ContactsTest</td><td><a href="#m25">createnewviewinthecontactpage</a></td><td rowspan="1">1701640632311</td><td rowspan="1">4718</td></tr><tr class="failedeven"><td><a href="#m26">viewacontactinthecontactpage</a></td><td rowspan="1">1701640645939</td><td rowspan="1">3946</td></tr><tr><th colspan="4">Contacts &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.testng.tests.ContactsTest</td><td><a href="#m27">checkMyContactsinthecontactpage</a></td><td rowspan="1">1701640595298</td><td rowspan="1">3650</td></tr><tr class="passedeven"><td><a href="#m28">checkcancelbutton</a></td><td rowspan="1">1701640601214</td><td rowspan="1">5887</td></tr><tr class="passedeven"><td><a href="#m29">checkrecentlycreatedcontact</a></td><td rowspan="1">1701640609203</td><td rowspan="1">3839</td></tr><tr class="passedeven"><td><a href="#m30">checksaveandnewbutton</a></td><td rowspan="1">1701640615288</td><td rowspan="1">4770</td></tr><tr class="passedeven"><td><a href="#m31">createnewcontact</a></td><td rowspan="1">1701640622155</td><td rowspan="1">7194</td></tr><tr class="passedeven"><td><a href="#m32">errormessage</a></td><td rowspan="1">1701640639085</td><td rowspan="1">4732</td></tr></tbody>
+<tbody id="t6"><tr><th colspan="4">RandomScenarios &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.testng.tests.RandomScenariosTest</td><td><a href="#m33">blockinganeventinthecalender</a></td><td rowspan="1">1701640652437</td><td rowspan="1">8340</td></tr><tr class="passedeven"><td><a href="#m34">blockinganeventinthecalenderwithweeklyrecurrenace</a></td><td rowspan="1">1701640662749</td><td rowspan="1">8928</td></tr><tr class="passedeven"><td><a href="#m35">verifyeditedlastnameisupdated</a></td><td rowspan="1">1701640673346</td><td rowspan="1">10586</td></tr><tr class="passedeven"><td><a href="#m36">verifyfirstnameandlastnameoftheloggedinuser</a></td><td rowspan="1">1701640685646</td><td rowspan="1">6283</td></tr><tr class="passedeven"><td><a href="#m37">verifythetabcustomization</a></td><td rowspan="1">1701640693631</td><td rowspan="1">10187</td></tr></tbody>
+</table>
+<h2>Login</h2><h3 id="m0">com.testng.tests.LoginTest#checkRememberMe</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testng.tests.LoginTest#forgotPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.testng.tests.LoginTest#loginerror</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.testng.tests.LoginTest#logintoapplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.testng.tests.LoginTest#validateloginErrorMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Usermenu</h2><h3 id="m5">com.testng.tests.UsermenuTest#selectUsermenufromusermenudropdown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Silpa Rajan1] but found [Silpa Abcd]
+	at com.testng.base.BasePage.compareText(BasePage.java:23)
+	at com.testng.pages.UsermenuPage.checkforusermenu(UsermenuPage.java:132)
+	at com.testng.tests.UsermenuTest.selectUsermenufromusermenudropdown(UsermenuTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.testng.tests.UsermenuTest#selectmyprofilefromusermenu</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Silpa Rajan1] but found [Silpa Abcd]
+	at com.testng.base.BasePage.compareText(BasePage.java:23)
+	at com.testng.pages.UsermenuPage.checkforusermenu(UsermenuPage.java:132)
+	at com.testng.tests.UsermenuTest.selectmyprofilefromusermenu(UsermenuTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.testng.tests.UsermenuTest#selectdevconsolefromusernamedropdwn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.testng.tests.UsermenuTest#selectlogoutfromusermenudropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.testng.tests.UsermenuTest#selectmysettingsfromusermenu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Accounts</h2><h3 id="m10">com.testng.tests.AccountsTest#editview</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Daffodils1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-678UJMN&apos;, ip: &apos;192.168.1.113&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testng.pages.AccountsPage.selectfromdropdown(AccountsPage.java:161)
+	at com.testng.tests.AccountsTest.editview(AccountsTest.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.testng.tests.AccountsTest#createaccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.testng.tests.AccountsTest#createaccountreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.testng.tests.AccountsTest#createnewview</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.testng.tests.AccountsTest#mergeaccounts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Opportunity</h2><h3 id="m15">com.testng.tests.OpportunityTest#createnewopportunity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.testng.tests.OpportunityTest#opportunitiesdropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.testng.tests.OpportunityTest#quarterlysummerreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.testng.tests.OpportunityTest#testopportunitypipelinereport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.testng.tests.OpportunityTest#teststuckopportunityreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Leads</h2><h3 id="m20">com.testng.tests.LeadsTest#checknewbuttononleadshome</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.testng.tests.LeadsTest#defaultview</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.testng.tests.LeadsTest#leadsselectview</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.testng.tests.LeadsTest#leadstab</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.testng.tests.LeadsTest#selecttodaysleadsfromviewdropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Contacts</h2><h3 id="m25">com.testng.tests.ContactsTest#createnewviewinthecontactpage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Contacts ~ Salesforce - Developer Edition] but found [Salesforce - Developer Edition]
+	at com.testng.base.BasePage.compareTitle(BasePage.java:26)
+	at com.testng.pages.ContactsPage.contacthomepagevalidn(ContactsPage.java:98)
+	at com.testng.tests.ContactsTest.createnewviewinthecontactpage(ContactsTest.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.testng.tests.ContactsTest#viewacontactinthecontactpage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;dev&apos;)]&quot;}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-678UJMN&apos;, ip: &apos;192.168.1.113&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\silpa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b0a7f82620e72ba50200303d849bb9ac
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;dev&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at com.testng.pages.ContactsPage.clickanyname(ContactsPage.java:115)
+	at com.testng.tests.ContactsTest.viewacontactinthecontactpage(ContactsTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.testng.tests.ContactsTest#checkMyContactsinthecontactpage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.testng.tests.ContactsTest#checkcancelbutton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">com.testng.tests.ContactsTest#checkrecentlycreatedcontact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">com.testng.tests.ContactsTest#checksaveandnewbutton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">com.testng.tests.ContactsTest#createnewcontact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">com.testng.tests.ContactsTest#errormessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RandomScenarios</h2><h3 id="m33">com.testng.tests.RandomScenariosTest#blockinganeventinthecalender</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">com.testng.tests.RandomScenariosTest#blockinganeventinthecalenderwithweeklyrecurrenace</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">com.testng.tests.RandomScenariosTest#verifyeditedlastnameisupdated</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">com.testng.tests.RandomScenariosTest#verifyfirstnameandlastnameoftheloggedinuser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">com.testng.tests.RandomScenariosTest#verifythetabcustomization</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
